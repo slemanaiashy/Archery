@@ -303,6 +303,7 @@ public class GameView extends View {
                 matrixglobal.setTranslate(390*fx, 15*fy);
                 matrixglobal.postScale(scalex,scaley,390*fx, 15*fy);
                 canvas.drawBitmap(number[0], matrixglobal, null);
+                System.out.println("hi");
                 break;
             case 2:
                 matrixglobal.setTranslate(390*fx, 15*fy);
